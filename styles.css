@@ -29,7 +29,7 @@ a:hover{
 
 .row #ppl{
     width: 80%;
-    border: 5px solid #D9E8C8;
+    border: 8px solid #D9E8C8;
     border-radius: 20%;
 }
 
@@ -46,12 +46,23 @@ div.row{
 
 }
 figure{
-    text-align: center; 
-    width:40%
+    width:40%;
+    display:inline;
+    align-items: center;
+    text-align: center;
+    
 }
-figcaption{
-    color:#8B5E3C; 
-    font-size:max(2vw, 4vw)
+figcaption {
+    color: #8B5E3C; 
+    font-size: max(2vw, 4vw);
+    background-color: #D9E8C8;
+    border-radius: 10px;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    
 }
 .nav{
     display:flex; 
