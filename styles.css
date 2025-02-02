@@ -120,7 +120,7 @@ li{
 }
 @media (max-width: 768px) {
     .row {
-        width: 100%;
+       
         flex-direction: column; 
         align-items: center;
     }
