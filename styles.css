@@ -26,7 +26,7 @@ a:hover{
 }
 
 .row #ppl{
-    width: 100%;
+    width: 80%;
     border: 5px solid #D9E8C8;
     border-radius: 20%;
 }
@@ -68,10 +68,14 @@ figcaption{
 .navbar {
     text-align: center;
     color: green;
+    display:flex; 
+    justify-content: center;
     
 }
 .contactform {
     text-align: center;
+    display:flex; 
+    justify-content: center;
 }
 footer{
     text-align: center;
@@ -116,8 +120,23 @@ li{
 }
 @media (max-width: 768px) {
     .row {
+        width: 100%;
         flex-direction: column; 
-        align-items: center; 
-        
+        align-items: center;
+    }
+    footer{
+        text-align: center;
+        background-color: #D9E8C8;
+        display:flex; 
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    #quote{
+        text-align: center;
+        background-color: #6bb584;
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
