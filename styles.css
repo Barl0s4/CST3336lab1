@@ -2,6 +2,7 @@ body{
     background-color: #2D4739;
 }
 header{
+    position: fixed;
     color: #2D4739;
     background-color:#D9E8C8;
     width: 100%;
@@ -53,6 +54,7 @@ figcaption{
 }
 .nav{
     display:flex; 
+    position: sticky;
     justify-content:center;
     padding: 15px;
     background-color:  #6bb584;
@@ -81,10 +83,29 @@ footer{
     text-align: center;
     background-color: #D9E8C8;
 }
-#quote{
+#quote {
     text-align: center;
     background-color: #6bb584;
-    padding: 1px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+#welcome-text {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+#quote-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+#quote-author {
+    font-size: 16px; 
+    font-weight: bold;
+    margin-top: 0;
 }
 .stuff{
     text-align: center;
@@ -127,7 +148,7 @@ li{
         text-align: center;
         background-color: #D9E8C8;
         display:flex; 
-        
+        justify-content: center;
         flex-wrap: wrap;
         padding: 20px;
     }
