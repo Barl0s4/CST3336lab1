@@ -40,7 +40,7 @@ h1{
 }
 div.row{
     display:flex; 
-    justify-content:center
+    justify-content: center;
 }
 figure{
     text-align: center; 
@@ -112,4 +112,10 @@ li{
     border-radius: 10px;
     color:#2D4739 ;
 
+}
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center them */
+    }
 }
